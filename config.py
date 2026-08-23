@@ -25,7 +25,7 @@ MQTT_PASSWORD = "change_me"
 
 ALERT_COOLDOWN_SECONDS = 60  
 
-# ---------------- Sensor Thresholds ----------------
+
 GAS_THRESHOLD_PPM = 300
 TEMP_MAX_C = 45
 HUMIDITY_MAX_PERCENT = 85
