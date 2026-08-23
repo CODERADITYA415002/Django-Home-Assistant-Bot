@@ -1,0 +1,28 @@
+# requirements.txt
+# Django: Home Assistant AI Bot — Python dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# ---------------- AI / NLP / Machine Learning ----------------
+tensorflow>=2.15.0          # AI logic & NLP integration (transformer-based LLM support)
+torch>=2.1.0                # AI logic & NLP integration (PyTorch backend)
+transformers>=4.38.0        # Pre-trained transformer-based language model for command interpretation
+numpy>=1.26.0                # Numerical operations used across AI/sensor modules
+
+# ---------------- Computer Vision ----------------
+opencv-python>=4.9.0.80      # Vision simulation / ESP32-CAM image processing (Phase-II)
+
+# ---------------- IoT Communication ----------------
+paho-mqtt>=1.6.1             # MQTT protocol client for bot <-> mobile app communication
+
+# ---------------- Networking / Alerts ----------------
+requests>=2.31.0             # Push notification HTTP requests
+
+# ---------------- Reinforcement Learning ----------------
+gymnasium>=0.29.1            # RL environment framework for adaptive behavioral learning
+stable-baselines3>=2.2.1     # RL algorithms (reward-based response tuning)
+
+# ---------------- Simulation / Hardware Bridge ----------------
+pyserial>=3.5                # Serial communication with Arduino UNO (motor control, sensors)
+
+# ---------------- Configuration / Utilities ----------------
+python-dotenv>=1.0.1          # Manage secrets (SMTP, API keys) via .env file instead of hardcoding
